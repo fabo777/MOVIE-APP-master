@@ -122,3 +122,72 @@ const App = () => {
 };
 
 export default App;
+
+{
+  /* <BrowserRouter>
+<Routes>
+  <>
+    <Route
+      path="/"
+      exact
+      element={
+        <>
+          <Header
+            setMovies={setMovies}
+            setSearchValue={setSearchValue}
+            noDisplay={noDisplay}
+            onFavorites={false}
+            isSignedIn={isSignedIn}
+            setIsSignedIn={setIsSignedIn}
+          />
+          <div className="homeImg"></div>
+        </>
+      }
+    />
+    <Route
+      path="/home"
+      exact
+      element={
+        <>
+          <Header
+            setMovies={setMovies}
+            setSearchValue={setSearchValue}
+            noDisplay={noDisplay}
+            onFavorites={false}
+            isSignedIn={isSignedIn}
+            setIsSignedIn={setIsSignedIn}
+          />
+          <Display
+            movies={movies}
+            handleFavoritesClick={addFavoritesMovie}
+            handleRemovingFavorites={removeFavoritesMovie}
+            checkFavorites={favorites}
+          />
+        </>
+      }
+    />
+    <Route
+      path="/favorites"
+      exact
+      element={
+        <>
+          <Header
+            setMovies={setMovies}
+            setSearchValue={setSearchValue}
+            noDisplay={noDisplay}
+            onFavorites={true}
+            isSignedIn={isSignedIn}
+            setIsSignedIn={setIsSignedIn}
+          />
+          <Display
+            movies={favorites}
+            handleRemovingFavorites={removeFavoritesMovie}
+            checkFavorites={favorites}
+          />
+        </>
+      }
+    />
+  </>
+</Routes>
+</BrowserRouter> */
+}
